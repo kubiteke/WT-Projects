@@ -84,7 +84,7 @@ describe("Dönem Notu ve Harf Notu Hesaplama Testi", () => {
     } else if (hesaplananDonemNotu >= 50) {
       beklenenNot = "E";
     } else {
-      beklenenNot = "F";
+      beklenenNot = "FF";
     }
     expect(harfNotu).toEqual(beklenenNot);
   });

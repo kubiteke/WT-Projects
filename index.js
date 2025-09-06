@@ -1,6 +1,6 @@
 //ilk workintech projesi
 
-const vize = 50;
+const vize = 30;
 const final = 90;
 const donemNotu = vize * 0.3 + final * 0.7;
 let harfNotu;
